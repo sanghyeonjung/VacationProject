@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0072DF">
+
+    <TextView
+        android:id="@+id/textviewDokdoDetailWhiteSlime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/custom_round_view"
+        android:fontFamily="@font/comfortaabold"
+        android:paddingStart="13dp"
+        android:paddingTop="13dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="13dp"
+        android:text="독도생물사전"
+        android:textColor="#FAFEFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewFishDetailWhiteSlime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/comfortaabold"
+        android:text="예쁜이갯민숭이"
+        android:textColor="#F2FAFF"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageviewDetailWhiteSlime"
+        android:layout_width="157dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_whiteslime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewFishDetailWhiteSlime" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="327dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/custom_round_explain_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageviewDetailWhiteSlime">
+
+        <TextView
+            android:id="@+id/textviewExplainWhiteSlime"
+            android:layout_width="291dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="18dp"
+            android:fontFamily="@font/comfortaaregular"
+            android:lineHeight="14dp"
+            android:text="독도를 포함하여 난류의 영향을 받는 비교적 고수온 해역에서 주로 서식한다 \n몸통 길이는 4cm 내외이며, 등 면에는 좌우대칭의 흰색 무늬가 있다 \n말미잘, 산호 또는 히드라와 같은 자포동물의 촉수를 뜯어 먹는 육식성 포식자이다"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

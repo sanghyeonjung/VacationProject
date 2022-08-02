@@ -10,14 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VacationProject">
         <activity
+            android:name=".DetailHair"
+            android:exported="false" />
+        <activity
+            android:name=".DetailWhiteSlime"
+            android:exported="false" />
+        <activity
+            android:name=".DetailWhiteFish"
+            android:exported="false" />
+        <activity
+            android:name=".DetailRedFish"
+            android:exported="false" />
+        <activity
             android:name=".FirstStudyActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

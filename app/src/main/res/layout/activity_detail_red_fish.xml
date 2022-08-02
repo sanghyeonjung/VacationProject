@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0072DF">
+
+    <TextView
+        android:id="@+id/textviewDokdoDetailRedFish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/custom_round_view"
+        android:fontFamily="@font/comfortaabold"
+        android:paddingStart="13dp"
+        android:paddingTop="13dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="13dp"
+        android:text="독도생물사전"
+        android:textColor="#FAFEFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewFishDetailRedFish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/comfortaabold"
+        android:text="흑돔"
+        android:textColor="#F2FAFF"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageviewDetailRedFish"
+        android:layout_width="157dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_redfish_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewFishDetailRedFish" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="327dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/custom_round_explain_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageviewDetailRedFish">
+
+        <TextView
+            android:id="@+id/textviewExplainRedFish"
+            android:layout_width="291dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="18dp"
+            android:fontFamily="@font/comfortaaregular"
+            android:lineHeight="14dp"
+            android:text="혹돔은 독도 앞바다에 서식하는 가장 큰 물고기\n머리에 사과만 한 혹이 나 있어서 혹돔\n혹돔은 낮에 활동하다가, 밤이 되면 바위틈이나 굴속에서 우리처럼 잠을 잔다\n이렇게 혹돔이 무리를 지어 자는 바위를 혹돔굴이라고\n한다"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

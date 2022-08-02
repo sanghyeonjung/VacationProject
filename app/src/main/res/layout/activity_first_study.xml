@@ -4,45 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2E80BC"
+    android:background="#0072DF"
     tools:context=".FirstStudyActivity">
 
     <ImageButton
+        android:id="@+id/buttonRedFishStudyActivity"
         android:layout_width="164dp"
         android:layout_height="88dp"
         android:layout_marginTop="199dp"
         android:layout_marginEnd="43dp"
-        android:background="#2E80BC"
+        android:background="#0072DF"
         android:src="@drawable/ic_redfish"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
+        android:id="@+id/buttonWhiteFishStudyActivity"
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="255dp"
-        android:background="#2E80BC"
+        android:background="#0072DF"
         android:src="@drawable/ic_whitefish"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
+        android:id="@+id/buttonWhiteSlimeStudyActivity"
         android:layout_width="137dp"
         android:layout_height="82dp"
         android:layout_marginTop="404dp"
         android:layout_marginEnd="30dp"
-        android:background="#2E80BC"
+        android:background="#0072DF"
         android:src="@drawable/ic_whiteslime"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
+        android:id="@+id/buttonHairStudyActivity"
         android:layout_width="213dp"
         android:layout_height="222dp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="479dp"
-        android:background="#2E80BC"
+        android:background="#0072DF"
         android:src="@drawable/ic_hair"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
