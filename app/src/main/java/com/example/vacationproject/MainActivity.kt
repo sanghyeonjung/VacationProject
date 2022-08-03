@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         val nextBtn = findViewById<TextView>(R.id.layoutFirstStudyTextButtonMain)
         nextBtn.setOnClickListener{
             startActivity(Intent(this@MainActivity,FirstStudyActivity::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }
 }

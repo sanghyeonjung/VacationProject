@@ -16,15 +16,19 @@ class FirstStudyActivity : AppCompatActivity() {
 
         redFish.setOnClickListener{
             startActivity(Intent(this@FirstStudyActivity,DetailRedFish::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         whiteFish.setOnClickListener{
             startActivity(Intent(this@FirstStudyActivity,DetailWhiteFish::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         whiteSlime.setOnClickListener{
             startActivity(Intent(this@FirstStudyActivity,DetailWhiteSlime::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         hair.setOnClickListener{
             startActivity(Intent(this@FirstStudyActivity,DetailHair::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }
 }
