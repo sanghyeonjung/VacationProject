@@ -13,6 +13,7 @@ class FirstStudyActivity : AppCompatActivity() {
         val whiteFish = findViewById<ImageButton>(R.id.buttonWhiteFishStudyActivity)
         val whiteSlime= findViewById<ImageButton>(R.id.buttonWhiteSlimeStudyActivity)
         val hair = findViewById<ImageButton>(R.id.buttonHairStudyActivity)
+        val back_btn = findViewById<ImageButton>(R.id.backButtonFirstStudyActivity)
 
         redFish.setOnClickListener{
             startActivity(Intent(this@FirstStudyActivity,DetailRedFish::class.java))
@@ -28,6 +29,11 @@ class FirstStudyActivity : AppCompatActivity() {
         }
         hair.setOnClickListener{
             startActivity(Intent(this@FirstStudyActivity,DetailHair::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
+        }
+
+        back_btn.setOnClickListener{
+            startActivity(Intent(this@FirstStudyActivity,MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }

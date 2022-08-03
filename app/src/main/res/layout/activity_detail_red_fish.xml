@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     android:background="#0072DF">
 
-    <TextView
-        android:id="@+id/textviewDokdoDetailRedFish"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonwDokdoDetailRedFish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -19,7 +19,7 @@
         android:paddingBottom="13dp"
         android:text="독도생물사전"
         android:textColor="#FAFEFF"
-        android:textSize="20sp"
+        android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
