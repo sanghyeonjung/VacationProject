@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VacationProject">
         <activity
+            android:name=".DetailPlant"
+            android:exported="false" />
+        <activity
+            android:name=".PlantStudyActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailHair"
             android:exported="false" />
         <activity
