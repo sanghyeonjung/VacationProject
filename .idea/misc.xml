@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_dialog_button.xml" value="0.259" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_round_explain_box.xml" value="0.1615" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_round_view.xml" value="0.1615" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_hair.xml" value="0.1545045045045045" />
@@ -11,6 +12,7 @@
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_white_slime.xml" value="0.1545045045045045" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_first_study.xml" value="0.128" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/custom_dialog.xml" value="0.21936936936936938" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_hair.xml" value="0.2" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_redfish.xml" value="0.264" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_whitefish.xml" value="0.264" />
