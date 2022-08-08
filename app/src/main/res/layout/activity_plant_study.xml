@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D9F6E5"
-    tools:context=".FirstStudyActivity">
+    tools:context=".PlantStudyActivity"
+    >
 
     <ImageButton
-        android:id="@+id/backButtonFirstStudyActivity"
+        android:id="@+id/backButtonPlantStudyActivity"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="24dp"
@@ -19,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/buttonRedFishStudyActivity"
+        android:id="@+id/buttonPlant1"
         android:layout_width="196.51dp"
         android:layout_height="181.25dp"
         android:layout_marginTop="87dp"
@@ -30,7 +31,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/buttonWhiteFishStudyActivity"
+        android:id="@+id/buttonPlant2"
         android:layout_width="140.01dp"
         android:layout_height="114.14dp"
         android:layout_marginStart="215dp"
@@ -41,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/buttonWhiteSlimeStudyActivity"
+        android:id="@+id/buttonPlant3"
         android:layout_width="186dp"
         android:layout_height="148dp"
         android:layout_marginTop="472dp"
@@ -52,7 +53,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/buttonHairStudyActivity"
+        android:id="@+id/buttonPlant4"
         android:layout_width="158.64dp"
         android:layout_height="96.55dp"
         android:layout_marginStart="197dp"

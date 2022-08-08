@@ -18,16 +18,16 @@
 
 
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <ImageButton
         android:id="@+id/layoutDokdo"
-        android:layout_width="352.04dp"
-        android:layout_height="179.68dp"
+        android:layout_width="353dp"
+        android:layout_height="180dp"
         android:background="@drawable/ic_dockdo"
-        android:layout_marginTop="269.29dp"
-        android:layout_marginStart="20.65dp"
+        android:layout_marginTop="266dp"
+        android:layout_marginStart="29dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ImageButton>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutFirstStudyMain"

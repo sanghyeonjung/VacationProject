@@ -14,12 +14,14 @@ import androidx.appcompat.app.AlertDialog
 class PlantStudyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_first_study)
-        val redFish = findViewById<ImageButton>(R.id.buttonRedFishStudyActivity)
-        val whiteFish = findViewById<ImageButton>(R.id.buttonWhiteFishStudyActivity)
-        val whiteSlime= findViewById<ImageButton>(R.id.buttonWhiteSlimeStudyActivity)
-        val hair = findViewById<ImageButton>(R.id.buttonHairStudyActivity)
-        val back_btn = findViewById<ImageButton>(R.id.backButtonFirstStudyActivity)
+        setContentView(R.layout.activity_plant_study)
+        val plant1 = findViewById<ImageButton>(R.id.buttonPlant1)
+        val plant2 = findViewById<ImageButton>(R.id.buttonPlant2)
+        val plant3 = findViewById<ImageButton>(R.id.buttonPlant3)
+        val plant4 = findViewById<ImageButton>(R.id.buttonPlant4)
+        val back_btn = findViewById<ImageButton>(R.id.backButtonPlantStudyActivity)
+//        val dialog = GuideDialog(this)
+//        dialog.show()
 
 //        val mDialogView = LayoutInflater.from(this).inflate(R.layout.custom_dialog,null)
 //        val mBuilder = AlertDialog.Builder(this)
@@ -30,24 +32,21 @@ class PlantStudyActivity : AppCompatActivity() {
 //            mAlertDialog.dismiss()
 //        }
 
-        val dialog = GuideDialog(this)
-        dialog.show()
 
-
-        redFish.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailRedFish::class.java))
+        plant1.setOnClickListener{
+            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
-        whiteFish.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailWhiteFish::class.java))
+        plant2.setOnClickListener{
+            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
-        whiteSlime.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailWhiteSlime::class.java))
+        plant3.setOnClickListener{
+            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
-        hair.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailHair::class.java))
+        plant4.setOnClickListener{
+            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 
