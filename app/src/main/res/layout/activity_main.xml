@@ -13,7 +13,21 @@
         android:background="@drawable/ic_toplayer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutDokdo"
+        android:layout_width="352.04dp"
+        android:layout_height="179.68dp"
+        android:background="@drawable/ic_dockdo"
+        android:layout_marginTop="269.29dp"
+        android:layout_marginStart="20.65dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutFirstStudyMain"

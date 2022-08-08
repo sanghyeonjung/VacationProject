@@ -21,14 +21,17 @@ class PlantStudyActivity : AppCompatActivity() {
         val hair = findViewById<ImageButton>(R.id.buttonHairStudyActivity)
         val back_btn = findViewById<ImageButton>(R.id.backButtonFirstStudyActivity)
 
-        val mDialogView = LayoutInflater.from(this).inflate(R.layout.custom_dialog,null)
-        val mBuilder = AlertDialog.Builder(this)
-            .setView(mDialogView)
-        val mAlertDialog = mBuilder.show()
-        val CancelBtn = mDialogView.findViewById<Button>(R.id.dialogCancelButton)
-        CancelBtn.setOnClickListener{
-            mAlertDialog.dismiss()
-        }
+//        val mDialogView = LayoutInflater.from(this).inflate(R.layout.custom_dialog,null)
+//        val mBuilder = AlertDialog.Builder(this)
+//            .setView(mDialogView)
+//        val mAlertDialog = mBuilder.show()
+//        val CancelBtn = mDialogView.findViewById<Button>(R.id.dialogCancelButton)
+//        CancelBtn.setOnClickListener{
+//            mAlertDialog.dismiss()
+//        }
+
+        val dialog = GuideDialog(this)
+        dialog.show()
 
 
         redFish.setOnClickListener{

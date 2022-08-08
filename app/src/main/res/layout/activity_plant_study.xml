@@ -23,42 +23,42 @@
         android:layout_width="196.51dp"
         android:layout_height="181.25dp"
         android:layout_marginTop="87dp"
-        android:layout_marginEnd="35dp"
+        android:layout_marginStart="31dp"
         android:background="#D9F6E5"
         android:src="@drawable/ic_plant"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/buttonWhiteFishStudyActivity"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="255dp"
+        android:layout_width="140.01dp"
+        android:layout_height="114.14dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="268dp"
         android:background="#D9F6E5"
-        android:src="@drawable/ic_whitefish"
+        android:src="@drawable/ic_plant_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/buttonWhiteSlimeStudyActivity"
-        android:layout_width="137dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="404dp"
-        android:layout_marginEnd="30dp"
+        android:layout_width="186dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginStart="17dp"
         android:background="#D9F6E5"
-        android:src="@drawable/ic_whiteslime"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_plant_3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/buttonHairStudyActivity"
-        android:layout_width="213dp"
-        android:layout_height="222dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="479dp"
+        android:layout_width="158.64dp"
+        android:layout_height="96.55dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="638dp"
         android:background="#D9F6E5"
-        android:src="@drawable/ic_hair"
+        android:src="@drawable/ic_plant_4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
