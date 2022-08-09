@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         quizBtn.setOnClickListener{
-            startActivity(Intent(this@MainActivity,YesNoQuiz::class.java))
+            startActivity(Intent(this@MainActivity,QuizStartActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         dockdo.setOnClickListener{

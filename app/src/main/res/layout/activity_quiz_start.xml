@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizStartActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutTopQuizStart"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:background="#F460CB"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imagebuttonBackQuizStart"
+            android:layout_width="115dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="63dp"
+            android:background="#F460CB"
+            android:src="@drawable/ic_group_scoreboardarrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutMethanQuizStart"
+            android:layout_width="142dp"
+            android:layout_height="73dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/custom_now_methanhydrate_textview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imageviewMethanQuizStart"
+                android:layout_width="36dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="38dp"
+                android:src="@drawable/ic_purple_methanhydrate"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textviewMethanQuizStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/intersemibold"
+                android:text="0"
+                android:textColor="#F460CB"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imageviewMethanQuizStart"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textviewScoreBoardQuizStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/intersemibold"
+        android:text="스코어보드"
+        android:textColor="#545956"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayoutTopQuizStart" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutStudyReportQuizStart"
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/custom_study_report_layout"
+        app:layout_constraintTop_toBottomOf="@id/textviewScoreBoardQuizStart">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewScoreBoardQuizStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="34dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textviewExplainButtonQuizStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/inter"
+        android:text="퀴즈풀고 메탄하이드레이트 모으기"
+        android:textColor="#545454"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayoutStudyReportQuizStart" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonQuizStartQuizStart"
+        android:layout_width="188dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_quiz_start_button"
+        android:fontFamily="@font/intersemibold"
+        android:text="퀴즈시작"
+        android:textColor="#FFE3F7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewExplainButtonQuizStart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
