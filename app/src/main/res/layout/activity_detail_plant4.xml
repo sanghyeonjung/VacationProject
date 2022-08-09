@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:fontFamily="@font/comfortaabold"
-        android:text="사철나무"
+        android:text="참나리"
         android:textColor="#223253"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,29 +30,29 @@
 
     <ImageView
         android:id="@+id/imageviewDetailHair"
-        android:layout_width="130dp"
-        android:layout_height="121.14dp"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/ic_plant"
+        android:layout_width="158.64dp"
+        android:layout_height="96.55dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_plant_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textviewFishDetailHair" />
 
     <TextView
-            android:id="@+id/textviewPlant1"
-            android:layout_width="279dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="518dp"
-            android:layout_marginEnd="18dp"
-            android:fontFamily="@font/comfortaaregular"
-            android:lineHeight="14dp"
-            android:text="키는 3~5m쯤 되며 생울타리로 많이 심어 기르며 추위와 공해에 강하다. 나무껍질은 흑갈색으로 얕게 갈라진다. 잎은 마주나고 타원 모양이며 가죽질이다."
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/textviewPlant1"
+        android:layout_width="279dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="518dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="@font/comfortaaregular"
+        android:lineHeight="14dp"
+        android:text="키는 3~5m쯤 되며 생울타리로 많이 심어 기르며 추위와 공해에 강하다. 나무껍질은 흑갈색으로 얕게 갈라진다. 잎은 마주나고 타원 모양이며 가죽질이다."
+        android:textAlignment="center"
+        android:textColor="#223253"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

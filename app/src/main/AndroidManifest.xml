@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VacationProject">
         <activity
+            android:name=".DetailPlant4"
+            android:exported="false" />
+        <activity
+            android:name=".DetailPlant3"
+            android:exported="false" />
+        <activity
+            android:name=".DetailPlant2"
+            android:exported="false" />
+        <activity
             android:name=".QuizStartActivity"
             android:exported="false" />
         <activity
@@ -38,13 +47,18 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity
+        android:name=".SplashActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
     </application>
 
 </manifest>

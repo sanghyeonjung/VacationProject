@@ -38,15 +38,15 @@ class PlantStudyActivity : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         plant2.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
+            startActivity(Intent(this@PlantStudyActivity,DetailPlant2::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         plant3.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
+            startActivity(Intent(this@PlantStudyActivity,DetailPlant3::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         plant4.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
+            startActivity(Intent(this@PlantStudyActivity,DetailPlant4::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 
