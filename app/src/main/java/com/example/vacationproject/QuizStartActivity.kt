@@ -11,9 +11,13 @@ class QuizStartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz_start)
         val quizStartBtn = findViewById<Button>(R.id.buttonQuizStartQuizStart)
-        val goScoreBoardBtn = findViewById<ImageButton>(R.id.imagebuttonBackQuizStart)
+        val goHomeBtn = findViewById<ImageButton>(R.id.imagebuttonBackQuizStart)
         quizStartBtn.setOnClickListener{
             startActivity(Intent(this@QuizStartActivity,YesNoQuiz::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
+        }
+        goHomeBtn.setOnClickListener{
+            startActivity(Intent(this@QuizStartActivity,MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }
