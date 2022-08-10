@@ -12,8 +12,8 @@ class YesNoQuiz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yes_no_quiz)
-        val answer = arrayListOf<Boolean>(true,false)
-        val question = arrayListOf<String>("혹돔은 독도 앞바다에 서식하는 가장 큰 물고기이다","2번째 퀴즈")
+        val answer = arrayListOf<Boolean>(true,false,true)//마지막값은 더미 데이터
+        val question = arrayListOf<String>("혹돔은 독도 앞바다에 서식하는 가장 큰 물고기이다","2번째 퀴즈", "")
         val answerSize = 2
 
         val intent = Intent(this, BlankQuiz::class.java)
