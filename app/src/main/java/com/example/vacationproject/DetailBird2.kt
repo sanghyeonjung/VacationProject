@@ -6,10 +6,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 
-class DetailPlant2 : AppCompatActivity() {
+class DetailBird2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_plant2)
+        setContentView(R.layout.activity_detail_bird2)
 
         val dockdo_btn = findViewById<Button>(R.id.buttonDokdoDetailPlant)
         val nextBtn = findViewById<ImageButton>(R.id.nextBtn)
@@ -21,7 +21,7 @@ class DetailPlant2 : AppCompatActivity() {
 
 
         nextBtn.setOnClickListener{
-            startActivity(Intent(this,DetailPlant3::class.java))
+            startActivity(Intent(this,DetailBird3::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 

@@ -1,24 +1,19 @@
 package com.example.vacationproject
 
 import android.content.Intent
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Window
-import android.widget.Button
 import android.widget.ImageButton
-import androidx.appcompat.app.AlertDialog
 
-class PlantStudyActivity : AppCompatActivity() {
+class BirdStudyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_plant_study)
-        val plant1 = findViewById<ImageButton>(R.id.buttonPlant1)
-        val plant2 = findViewById<ImageButton>(R.id.buttonPlant2)
-        val plant3 = findViewById<ImageButton>(R.id.buttonPlant3)
-        val plant4 = findViewById<ImageButton>(R.id.buttonPlant4)
+        setContentView(R.layout.activity_bird_study)
+
+        val bird1 = findViewById<ImageButton>(R.id.buttonBird1)
+        val bird2 = findViewById<ImageButton>(R.id.buttonBird2)
+        val bird3 = findViewById<ImageButton>(R.id.buttonBird3)
+        val bird4 = findViewById<ImageButton>(R.id.buttonBird4)
         val slideLeft = findViewById<ImageButton>(R.id.slideBtnLeft)
         val slideRight = findViewById<ImageButton>(R.id.slideBtnRight)
         val back_btn = findViewById<ImageButton>(R.id.backButtonPlantStudyActivity)
@@ -35,31 +30,35 @@ class PlantStudyActivity : AppCompatActivity() {
 //        }
 
 
-        plant1.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
+        bird1.setOnClickListener{
+            startActivity(Intent(this@BirdStudyActivity,DetailPlant::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
-        plant2.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant2::class.java))
+        bird2.setOnClickListener{
+            startActivity(Intent(this@BirdStudyActivity,DetailPlant2::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
-        plant3.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant3::class.java))
+        bird3.setOnClickListener{
+            startActivity(Intent(this@BirdStudyActivity,DetailPlant3::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
-        plant4.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant4::class.java))
+        bird4.setOnClickListener{
+            startActivity(Intent(this@BirdStudyActivity,DetailPlant4::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 
         back_btn.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,MainActivity::class.java))
+            startActivity(Intent(this@BirdStudyActivity,MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 
+        slideLeft.setOnClickListener{
+            startActivity(Intent(this@BirdStudyActivity,PlantStudyActivity::class.java))
+            overridePendingTransition(R.anim.slide_left_enter, R.anim.slide_left_exit)
+        }
 
         slideRight.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,BirdStudyActivity::class.java))
+            startActivity(Intent(this@BirdStudyActivity,InsectStudyActivity::class.java))
             overridePendingTransition(R.anim.slide_right_enter, R.anim.slide_right_exit)
         }
 

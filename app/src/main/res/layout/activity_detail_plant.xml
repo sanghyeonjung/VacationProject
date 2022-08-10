@@ -44,7 +44,7 @@
             android:layout_height="60dp"
             android:layout_marginStart="48dp"
             android:layout_marginTop="518dp"
-            android:layout_marginEnd="18dp"
+            android:layout_marginEnd="48dp"
             android:fontFamily="@font/comfortaaregular"
             android:lineHeight="14dp"
             android:text="키는 3~5m쯤 되며 생울타리로 많이 심어 기르며 추위와 공해에 강하다. 나무껍질은 흑갈색으로 얕게 갈라진다. 잎은 마주나고 타원 모양이며 가죽질이다."
@@ -54,5 +54,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/nextBtn"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="623dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_nextbutton"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

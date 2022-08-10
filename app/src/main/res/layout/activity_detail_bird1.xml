@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:fontFamily="@font/comfortaabold"
-        android:text="해국"
+        android:text="새매"
         android:textColor="#223253"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,10 +30,10 @@
 
     <ImageView
         android:id="@+id/imageviewDetailHair"
-        android:layout_width="140dp"
-        android:layout_height="114.14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:src="@drawable/ic_plant_2"
+        android:src="@drawable/ic_bird1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textviewFishDetailHair" />
@@ -47,9 +47,9 @@
         android:layout_marginEnd="48dp"
         android:fontFamily="@font/comfortaaregular"
         android:lineHeight="14dp"
-        android:text="키는 3~5m쯤 되며 생울타리로 많이 심어 기르며 추위와 공해에 강하다. 나무껍질은 흑갈색으로 얕게 갈라진다. 잎은 마주나고 타원 모양이며 가죽질이다."
+        android:text="붙잡으면 한 손에 쏙 들어올 정도로 작다. 주로 쥐나 참새같은 소형 동물을 사냥한다. 크기는 까마귀보다도 작고 까치랑 비슷한 크기지만 명색이 맹금류인만큼 전투력은 뛰어나서 1:1로 까치 정도는 제압할 수 있다."
         android:textAlignment="center"
-        android:textColor="#223253"
+        android:textColor="#000000"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,5 +64,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/ic_nextbutton"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

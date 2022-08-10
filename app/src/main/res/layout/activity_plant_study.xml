@@ -13,7 +13,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/ic_undo"
         android:backgroundTint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/buttonPlant1"
         android:layout_width="196.51dp"
         android:layout_height="181.25dp"
-        android:layout_marginTop="87dp"
+        android:layout_marginTop="43dp"
         android:layout_marginStart="31dp"
         android:background="#D9F6E5"
         android:src="@drawable/ic_plant"
@@ -35,7 +35,7 @@
         android:layout_width="140.01dp"
         android:layout_height="114.14dp"
         android:layout_marginStart="215dp"
-        android:layout_marginTop="268dp"
+        android:layout_marginTop="224dp"
         android:background="#D9F6E5"
         android:src="@drawable/ic_plant_2"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
         android:id="@+id/buttonPlant3"
         android:layout_width="186dp"
         android:layout_height="148dp"
-        android:layout_marginTop="472dp"
+        android:layout_marginTop="428dp"
         android:layout_marginStart="17dp"
         android:background="#D9F6E5"
         android:src="@drawable/ic_plant_3"
@@ -57,9 +57,22 @@
         android:layout_width="158.64dp"
         android:layout_height="96.55dp"
         android:layout_marginStart="197dp"
-        android:layout_marginTop="638dp"
+        android:layout_marginTop="594dp"
         android:background="#D9F6E5"
         android:src="@drawable/ic_plant_4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/slideBtnRight"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="345dp"
+        android:src="@drawable/ic_slidebutton2"
+        android:background="#D9F6E5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

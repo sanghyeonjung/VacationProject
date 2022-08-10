@@ -16,7 +16,13 @@
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_whitefish.xml" value="0.264" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_whiteslime.xml" value="0.2" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/drawable/custom_round_view.xml" value="0.342" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/drawable/ic_bird1.xml" value="0.2745" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/drawable/ic_undo.xml" value="0.342" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_bird_study.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_bird1.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_bird2.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_bird3.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_bird4.xml" value="0.28289473684210525" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_hair.xml" value="0.3359375" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_plant.xml" value="0.31875" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_plant2.xml" value="0.28289473684210525" />
@@ -26,6 +32,7 @@
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_white_fish.xml" value="0.3359375" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_white_slime.xml" value="0.3359375" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_first_study.xml" value="0.3359375" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_insect_study.xml" value="0.24728260869565216" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_main.xml" value="0.9" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_plant_study.xml" value="0.28289473684210525" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_splash.xml" value="0.22327898550724637" />

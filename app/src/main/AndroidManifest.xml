@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VacationProject">
         <activity
+            android:name=".InsectStudyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailBird4"
+            android:exported="false" />
+        <activity
+            android:name=".DetailBird3"
+            android:exported="false" />
+        <activity
+            android:name=".DetailBird2"
+            android:exported="false" />
+        <activity
+            android:name=".DetailBird1"
+            android:exported="false" />
+        <activity
+            android:name=".BirdStudyActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailPlant4"
             android:exported="false" />
         <activity
@@ -47,18 +65,16 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
-        android:name=".SplashActivity"
-        android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
