@@ -25,6 +25,7 @@ class YesNoQuiz : AppCompatActivity() {
 
         var methan = 0
         var cnt = 0
+
             yesBtn.setOnClickListener{
                 if(answer[cnt] == true)
                 {
