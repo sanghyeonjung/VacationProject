@@ -3,23 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0072DF">
+    android:background="#FAFFFC">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonDokdoDetailWhiteSlime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="31dp"
-        android:background="@drawable/custom_round_view"
-        android:fontFamily="@font/comfortaabold"
-        android:paddingStart="13dp"
-        android:paddingTop="13dp"
-        android:paddingEnd="14dp"
-        android:paddingBottom="13dp"
-        android:text="독도생물사전"
-        android:textColor="#FAFEFF"
-        android:textSize="13sp"
+        android:layout_width="127.76dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/ic_logo2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -72,4 +64,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/nextBtn"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="623dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_nextbutton"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

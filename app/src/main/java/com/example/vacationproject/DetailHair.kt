@@ -12,9 +12,14 @@ class DetailHair : AppCompatActivity() {
         setContentView(R.layout.activity_detail_hair)
 
         val dockdo_btn = findViewById<Button>(R.id.buttonDokdoDetailHair)
+        val next_btn = findViewById<ImageButton>(R.id.nextBtn)
 
+        next_btn.setOnClickListener{
+            startActivity(Intent(this,DetailRedFish::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
+        }
         dockdo_btn.setOnClickListener{
-            startActivity(Intent(this,FirstStudyActivity::class.java))
+            startActivity(Intent(this,MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }

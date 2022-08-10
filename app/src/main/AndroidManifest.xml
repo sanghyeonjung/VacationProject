@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VacationProject">
         <activity
+            android:name=".BlankQuiz"
+            android:exported="false" />
+        <activity
             android:name=".InsectStudyActivity"
             android:exported="false" />
         <activity
