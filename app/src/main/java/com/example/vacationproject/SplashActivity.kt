@@ -14,6 +14,7 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
             startActivity(intent)
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
             finish()
         }, DURATION)
 

@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BlankQuiz"
-    android:background="#A3CFFA">
+    android:background="#E5EDE8"
+    tools:context=".BlankQuiz">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutQuizMain"
         android:layout_width="59dp"
@@ -22,7 +23,7 @@
             android:layout_height="10dp"
             android:layout_marginStart="11dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/ic_metanhydrate"
+            android:src="@drawable/ic_gray_methanhydrate"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,75 +34,61 @@
             android:layout_marginStart="6dp"
             android:fontFamily="@font/intersemibold"
             android:text="0"
-            android:textColor="#FFFFFF"
+            android:textColor="#9BA19E"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="@id/imageQuizMain"
             app:layout_constraintLeft_toRightOf="@id/imageQuizMain"
             app:layout_constraintTop_toTopOf="@id/imageQuizMain" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <EditText
-        android:id="@+id/edittextNameQuestion"
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
-        android:fontFamily="@font/comfortaabold"
-        android:background="@drawable/custom_quiz_blank"
-        android:text=""
-        android:minHeight="60dp"
-        android:minWidth="162dp"
-        android:textColor="#F2FAFF"
-        android:textSize="32sp"
+        android:layout_marginBottom="91dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="독도생물의 이름을 맞춰보세요"
+        android:textColor="#292F2B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/imageviewQuestion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageviewQuestion"
         android:layout_width="157dp"
         android:layout_height="88dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="213dp"
         android:src="@drawable/ic_redfish_detail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edittextNameQuestion" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayoutExplainQuestion"
+    <EditText
+        android:id="@+id/edittextNameQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="58dp"
-        android:background="@drawable/custom_round_explain_box"
-        android:backgroundTint="#D9F0FF"
-        android:minWidth="327dp"
-        android:minHeight="112dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/custom_quiz_blank"
+        android:fontFamily="@font/comfortaabold"
+        android:minWidth="162dp"
+        android:minHeight="60dp"
+        android:text=""
+        android:textColor="#9BA19E"
+        android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageviewQuestion">
+        app:layout_constraintTop_toBottomOf="@id/imageviewQuestion" />
 
-        <TextView
-            android:id="@+id/textviewQuestion"
-            android:layout_width="291dp"
-            android:layout_height="126dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="18dp"
-            android:fontFamily="@font/comfortaabold"
-            android:lineHeight="14dp"
-            android:text="혹돔은 독도 앞바다에 서식하는 가장 큰 물고기이다"
-            android:textAlignment="center"
-            android:textColor="#223253"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonConfirmQuiz"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="162dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/custom_quiz_confirm_button"
+        android:fontFamily="@font/comfortaaregular"
+        android:text="완료"
+        android:textColor="#E7ECFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/edittextNameQuestion" />
 </androidx.constraintlayout.widget.ConstraintLayout>

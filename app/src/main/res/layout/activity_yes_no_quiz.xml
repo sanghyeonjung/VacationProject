@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A3CFFA">
+    android:background="#E5EDE8">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutQuizMain"
@@ -21,7 +21,7 @@
             android:layout_height="10dp"
             android:layout_marginStart="11dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/ic_metanhydrate"
+            android:src="@drawable/ic_gray_methanhydrate"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,7 +32,7 @@
             android:layout_marginStart="6dp"
             android:fontFamily="@font/intersemibold"
             android:text="0"
-            android:textColor="#FFFFFF"
+            android:textColor="#9BA19E"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="@id/imageQuizMain"
             app:layout_constraintLeft_toRightOf="@id/imageQuizMain"
@@ -45,10 +45,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="170dp"
-        android:fontFamily="@font/comfortaabold"
+        android:fontFamily="@font/pretendardmedium"
         android:text="흑돔"
-        android:textColor="#F2FAFF"
-        android:textSize="32sp"
+        android:textColor="#292F2B"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="58dp"
         android:background="@drawable/custom_round_explain_box"
-        android:backgroundTint="#D9F0FF"
+        android:backgroundTint="#E5EDE8"
         android:minWidth="327dp"
         android:minHeight="112dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -99,9 +99,9 @@
         android:id="@+id/imageButtonYesQuiz"
         android:layout_width="118dp"
         android:layout_height="118dp"
-        android:layout_marginTop="35dp"
         android:layout_marginStart="52dp"
-        android:background="#A3CFFA"
+        android:layout_marginTop="35dp"
+        android:background="#E5EDE8"
         android:src="@drawable/ic_quiz_yes_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/constraintLayoutExplainQuestion" />
@@ -112,7 +112,7 @@
         android:layout_height="118dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="52dp"
-        android:background="#A3CFFA"
+        android:background="#E5EDE8"
         android:src="@drawable/ic_quiz_no_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/constraintLayoutExplainQuestion" />

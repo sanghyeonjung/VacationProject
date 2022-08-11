@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_dialog_button.xml" value="0.1795" />
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_login_button.xml" value="0.1785" />
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_login_edittext.xml" value="0.1785" />
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_now_methanhydrate_textview.xml" value="0.1895" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_quiz_blank.xml" value="0.23" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_quiz_button.xml" value="0.23" />
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_quiz_confirm_button.xml" value="0.1785" />
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_quiz_start_button.xml" value="0.1895" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_round_explain_box.xml" value="0.1615" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_round_view.xml" value="0.1615" />
+        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_study_report_layout.xml" value="0.1895" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_bird_study.xml" value="0.1" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_blank_quiz.xml" value="0.21936936936936938" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_bird1.xml" value="0.14414414414414414" />

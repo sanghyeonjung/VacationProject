@@ -10,7 +10,7 @@
         android:id="@+id/constraintLayoutTopQuizStart"
         android:layout_width="match_parent"
         android:layout_height="234dp"
-        android:background="#F460CB"
+        android:background="#E5EDE8"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
@@ -19,8 +19,8 @@
             android:layout_height="24dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="63dp"
-            android:background="#F460CB"
-            android:src="@drawable/ic_arrow_back_ios"
+            android:background="#E5EDE8"
+            android:src="@drawable/ic_gray_arrow_back_ios"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +39,7 @@
                 android:layout_width="36dp"
                 android:layout_height="18dp"
                 android:layout_marginStart="38dp"
-                android:src="@drawable/ic_purple_methanhydrate"
+                android:src="@drawable/ic_gray_methanhydrate"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -51,7 +51,7 @@
                 android:layout_marginStart="16dp"
                 android:fontFamily="@font/intersemibold"
                 android:text="0"
-                android:textColor="#F460CB"
+                android:textColor="#9BA19E"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@id/imageviewMethanQuizStart"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="44dp"
-        android:fontFamily="@font/intersemibold"
+        android:fontFamily="@font/pretendardmedium"
         android:text="스코어보드"
         android:textColor="#545956"
         android:textSize="16sp"

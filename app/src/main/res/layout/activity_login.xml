@@ -4,41 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E5EDE8"
     tools:context=".LoginActivity">
 
-    <EditText
-        android:id="@+id/emailEditText"
-        android:layout_width="197dp"
-        android:layout_height="54dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageviewLogoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="147dp"
+        android:src="@drawable/ic_login_dokdo_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="197dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="89dp"
+        android:background="@drawable/custom_login_edittext"
+        android:fontFamily="@font/pretendardmedium"
+        android:hint="e-mail"
+        android:paddingLeft="20dp"
+        android:textColorHint="#C7D7CD"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageviewLogoLogin" />
+
+    <EditText
         android:id="@+id/passwordEditText"
         android:layout_width="197dp"
         android:layout_height="54dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/custom_login_edittext"
+        android:fontFamily="@font/pretendardmedium"
+        android:hint="password"
         android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColorHint="#C7D7CD"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/emailEditText" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signInButton"
         android:layout_width="197dp"
         android:layout_height="54dp"
-        android:text="sign in"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/custom_login_button"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="로그인"
+        android:textColor="#E5EDE8"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/passwordEditText" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signUpButton"
         android:layout_width="197dp"
         android:layout_height="54dp"
-        android:text="sign up"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/custom_login_button"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="회원가입"
+        android:textColor="#E5EDE8"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/signInButton" />
