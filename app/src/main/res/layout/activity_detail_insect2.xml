@@ -6,7 +6,7 @@
     android:background="#FAFFFC">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/buttonDokdoDetailHair"
+        android:id="@+id/buttonDokdoDetailPlant"
         android:layout_width="127.76dp"
         android:layout_height="35dp"
         android:layout_marginStart="28dp"
@@ -19,9 +19,9 @@
         android:id="@+id/textviewFishDetailHair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="120dp"
         android:fontFamily="@font/comfortaabold"
-        android:text="왕벚꽃하늘소갯민숭이"
+        android:text="새매"
         android:textColor="#223253"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,30 +30,30 @@
 
     <ImageView
         android:id="@+id/imageviewDetailHair"
-        android:layout_width="157dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="35dp"
-        android:src="@drawable/ic_hair_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/ic_insect2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textviewFishDetailHair" />
 
-        <TextView
-            android:id="@+id/textviewExplainHair"
-            android:layout_width="291dp"
-            android:layout_height="126dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="500dp"
-            android:layout_marginEnd="18dp"
-            android:fontFamily="@font/comfortaaregular"
-            android:lineHeight="14dp"
-            android:text="독도 바다에서 봄~여름철에 볼 수 있으며, 몸통 길이는 3~4cm 정도이다 \n산호나 히드라와 같은 자포동물을 주로 먹는다 \n먹이로부터 섭취한 독침을 아가미 돌기 끝에 저장하여 자신을 포식하려는 적들에 대한 방어무기로 활용한다"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="13sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textviewPlant1"
+        android:layout_width="279dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="518dp"
+        android:layout_marginEnd="48dp"
+        android:fontFamily="@font/comfortaaregular"
+        android:lineHeight="14dp"
+        android:text="붙잡으면 한 손에 쏙 들어올 정도로 작다. 주로 쥐나 참새같은 소형 동물을 사냥한다. 크기는 까마귀보다도 작고 까치랑 비슷한 크기지만 명색이 맹금류인만큼 전투력은 뛰어나서 1:1로 까치 정도는 제압할 수 있다."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/nextBtn"
@@ -64,4 +64,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/ic_nextbutton"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

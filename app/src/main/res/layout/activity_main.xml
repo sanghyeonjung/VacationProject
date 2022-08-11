@@ -17,6 +17,16 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+    <ImageButton
+        android:id="@+id/skyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="329dp"
+        android:src="@drawable/ic_sky"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#76BADD" />
+
 
     <ImageButton
         android:id="@+id/layoutDokdo"

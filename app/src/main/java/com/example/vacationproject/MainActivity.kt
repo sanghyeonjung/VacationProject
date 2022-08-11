@@ -1,6 +1,7 @@
 package com.example.vacationproject
 
 import android.content.Intent
+import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,8 +16,10 @@ class MainActivity : AppCompatActivity() {
         val nextBtn = findViewById<TextView>(R.id.layoutFirstStudyTextButtonMain)
         val quizBtn = findViewById<ConstraintLayout>(R.id.layoutQuizMain)
         val dockdo = findViewById<ImageButton>(R.id.layoutDokdo)
+        val sky = findViewById<ImageButton>(R.id.skyBtn)
+
         nextBtn.setOnClickListener{
-            startActivity(Intent(this@MainActivity,FirstStudyActivity::class.java))
+            startActivity(Intent(this@MainActivity,DetailRedFish::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         quizBtn.setOnClickListener{
@@ -24,7 +27,11 @@ class MainActivity : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         dockdo.setOnClickListener{
-            startActivity(Intent(this@MainActivity,PlantStudyActivity::class.java))
+            startActivity(Intent(this@MainActivity,DetailPlant::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
+        }
+        sky.setOnClickListener{
+            startActivity(Intent(this@MainActivity,DetailBird1::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }

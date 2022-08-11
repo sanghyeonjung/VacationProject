@@ -17,8 +17,8 @@ class BirdStudyActivity : AppCompatActivity() {
         val slideLeft = findViewById<ImageButton>(R.id.slideBtnLeft)
         val slideRight = findViewById<ImageButton>(R.id.slideBtnRight)
         val back_btn = findViewById<ImageButton>(R.id.backButtonPlantStudyActivity)
-        val dialog = GuideDialog(this)
-        dialog.show()
+       // val dialog = GuideDialog(this)
+       // dialog.show()
 
 //        val mDialogView = LayoutInflater.from(this).inflate(R.layout.custom_dialog,null)
 //        val mBuilder = AlertDialog.Builder(this)
@@ -31,19 +31,19 @@ class BirdStudyActivity : AppCompatActivity() {
 
 
         bird1.setOnClickListener{
-            startActivity(Intent(this@BirdStudyActivity,DetailPlant::class.java))
+            startActivity(Intent(this@BirdStudyActivity,DetailBird1::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         bird2.setOnClickListener{
-            startActivity(Intent(this@BirdStudyActivity,DetailPlant2::class.java))
+            startActivity(Intent(this@BirdStudyActivity,DetailBird2::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         bird3.setOnClickListener{
-            startActivity(Intent(this@BirdStudyActivity,DetailPlant3::class.java))
+            startActivity(Intent(this@BirdStudyActivity,DetailBird3::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         bird4.setOnClickListener{
-            startActivity(Intent(this@BirdStudyActivity,DetailPlant4::class.java))
+            startActivity(Intent(this@BirdStudyActivity,DetailBird4::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 

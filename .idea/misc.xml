@@ -3,37 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_dialog_button.xml" value="0.1795" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_login_button.xml" value="0.1785" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_login_edittext.xml" value="0.1785" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_now_methanhydrate_textview.xml" value="0.1895" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_quiz_blank.xml" value="0.23" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_quiz_button.xml" value="0.23" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_quiz_confirm_button.xml" value="0.1785" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_quiz_start_button.xml" value="0.1895" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_round_explain_box.xml" value="0.1615" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_round_view.xml" value="0.1615" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/drawable/custom_study_report_layout.xml" value="0.1895" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_bird_study.xml" value="0.1" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_blank_quiz.xml" value="0.21936936936936938" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_bird1.xml" value="0.14414414414414414" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_bird2.xml" value="0.21936936936936938" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_hair.xml" value="0.1545045045045045" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_red_fish.xml" value="0.1545045045045045" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_white_fish.xml" value="0.1545045045045045" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_detail_white_slime.xml" value="0.1545045045045045" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_first_study.xml" value="0.128" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_insect_study.xml" value="0.14414414414414414" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_login.xml" value="0.17027027027027028" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_plant_study.xml" value="0.1875" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_quiz_start.xml" value="0.1" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/activity_yes_no_quiz.xml" value="0.1875" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_hair.xml" value="0.2" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_redfish.xml" value="0.264" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_whitefish.xml" value="0.264" />
         <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/detail_whiteslime.xml" value="0.2" />
-        <entry key="..\:/Users/jeong/AndroidStudioProjects/VacationProject/app/src/main/res/layout/item_list.xml" value="0.10708003518029903" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/drawable/custom_round_view.xml" value="0.342" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/drawable/ic_bird1.xml" value="0.2745" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/drawable/ic_undo.xml" value="0.342" />
@@ -43,6 +24,12 @@
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_bird3.xml" value="0.28289473684210525" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_bird4.xml" value="0.28289473684210525" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_hair.xml" value="0.3359375" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_insect1.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_insect2.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_insect3.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_insect4.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_insect5.xml" value="0.28289473684210525" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_insect6.xml" value="0.28289473684210525" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_plant.xml" value="0.31875" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_plant2.xml" value="0.28289473684210525" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_plant3.xml" value="0.26842105263157895" />
@@ -52,7 +39,7 @@
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_detail_white_slime.xml" value="0.3359375" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_first_study.xml" value="0.3359375" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_insect_study.xml" value="0.24728260869565216" />
-        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_main.xml" value="0.9" />
+        <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_plant_study.xml" value="0.28289473684210525" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_splash.xml" value="0.22327898550724637" />
         <entry key="..\:/VACATION_Project/VacationProject/app/src/main/res/layout/activity_yes_no_quiz.xml" value="0.3359375" />

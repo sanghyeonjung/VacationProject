@@ -22,7 +22,7 @@
         android:layout_marginTop="170dp"
         android:fontFamily="@font/comfortaabold"
         android:text="흰갯민숭달팽이"
-        android:textColor="#F2FAFF"
+        android:textColor="#223253"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,21 +38,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textviewFishDetailWhiteFish" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="327dp"
-        android:layout_height="204dp"
-        android:layout_marginTop="58dp"
-        android:background="@drawable/custom_round_explain_box"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageviewDetailWhiteFish">
 
         <TextView
             android:id="@+id/textviewExplainWhiteFish"
             android:layout_width="291dp"
             android:layout_height="126dp"
             android:layout_marginStart="18dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="500dp"
             android:layout_marginEnd="18dp"
             android:fontFamily="@font/comfortaaregular"
             android:lineHeight="14dp"
@@ -63,7 +55,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
     <ImageButton
         android:id="@+id/nextBtn"
         android:layout_width="85dp"
