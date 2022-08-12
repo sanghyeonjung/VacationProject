@@ -38,22 +38,55 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textviewFishDetailRedFish" />
 
-        <TextView
-            android:id="@+id/textviewExplainRedFish"
-            android:layout_width="291dp"
-            android:layout_height="126dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="500dp"
-            android:layout_marginEnd="18dp"
-            android:fontFamily="@font/comfortaaregular"
-            android:lineHeight="14dp"
-            android:text="혹돔은 독도 앞바다에 서식하는 가장 큰 물고기\n머리에 사과만 한 혹이 나 있어서 혹돔\n혹돔은 낮에 활동하다가, 밤이 되면 바위틈이나 굴속에서 우리처럼 잠을 잔다\n이렇게 혹돔이 무리를 지어 자는 바위를 혹돔굴이라고\n한다"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="13sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="혹돔이란?"
+        android:fontFamily="@font/pretendardextrabold"
+        android:textSize="20sp"
+        android:textColor="#292F2B"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="373dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="403dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="독도 앞바다에 서식하는 가장 큰 물고기\n머리에 사과만 한 혹이 나 있어서 혹돔이라 부름"
+        android:textColor="#292F2B"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="465dp"
+        android:fontFamily="@font/pretendardsemibold"
+        android:text="특징"
+        android:textColor="#292F2B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="490dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="낮에 확동하다가, 밤이 되면 바위 틈이나 굴 속에서 우리처럼 잠을 잔다. 혹돔들이 무리를 지어 자는 바위를 혹돔굴이라고 한다."
+        android:textColor="#292F2B"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageButton
         android:id="@+id/nextBtn"

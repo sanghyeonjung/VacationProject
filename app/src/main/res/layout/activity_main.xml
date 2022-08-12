@@ -48,62 +48,65 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutDokdoMain">
 
-        <ImageView
-            android:layout_width="41dp"
-            android:layout_height="22dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="76dp"
-            android:src="@drawable/ic_redfish"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <ImageView-->
+<!--            android:layout_width="41dp"-->
+<!--            android:layout_height="22dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="76dp"-->
+<!--            android:src="@drawable/ic_redfish"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
-        <ImageView
-            android:layout_width="38dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="39dp"
-            android:layout_marginEnd="24dp"
-            android:src="@drawable/ic_hair_main"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <ImageView-->
+<!--            android:layout_width="38dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginTop="39dp"-->
+<!--            android:layout_marginEnd="24dp"-->
+<!--            android:src="@drawable/ic_hair_main"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
-        <ImageView
-            android:layout_width="55dp"
-            android:layout_height="52dp"
-            android:layout_marginEnd="90dp"
-            android:layout_marginBottom="30dp"
-            android:src="@drawable/ic_whitefish"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+<!--        <ImageView-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="52dp"-->
+<!--            android:layout_marginEnd="90dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:src="@drawable/ic_whitefish"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent" />-->
 
-        <TextView
-            android:id="@+id/layoutFirstStudyTextMain"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="38dp"
-            android:fontFamily="@font/inter"
-            android:lineHeight="15sp"
-            android:text="독도 공부 1단계"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp"
-            android:textStyle="normal"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <TextView-->
+<!--            android:id="@+id/layoutFirstStudyTextMain"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="28dp"-->
+<!--            android:layout_marginTop="38dp"-->
+<!--            android:fontFamily="@font/inter"-->
+<!--            android:lineHeight="15sp"-->
+<!--            android:text="독도 공부 1단계"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="12sp"-->
+<!--            android:textStyle="normal"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
-        <TextView
-            android:id="@+id/layoutFirstStudyTextButtonMain"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="4dp"
-            android:fontFamily="@font/inter"
-            android:lineHeight="44sp"
-            android:text="-> 바로가기"
-            android:textColor="#FFFFFF"
-            android:textSize="36sp"
-            android:textStyle="normal"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/layoutFirstStudyTextMain" />
+<!--        <TextView-->
+<!--            android:id="@+id/layoutFirstStudyTextButtonMain"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="25dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:fontFamily="@font/inter"-->
+<!--            android:lineHeight="44sp"-->
+<!--            android:text="-> 바로가기"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="36sp"-->
+<!--            android:textStyle="normal"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/layoutFirstStudyTextMain" />-->
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout

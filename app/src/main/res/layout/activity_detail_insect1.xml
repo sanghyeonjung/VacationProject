@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:fontFamily="@font/comfortaabold"
-        android:text="새매"
+        android:text="검정배줄벼룩잎벌레"
         android:textColor="#223253"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,22 +38,55 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textviewFishDetailHair" />
 
+
     <TextView
-        android:id="@+id/textviewPlant1"
-        android:layout_width="279dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="518dp"
-        android:layout_marginEnd="48dp"
-        android:fontFamily="@font/comfortaaregular"
-        android:lineHeight="14dp"
-        android:text="붙잡으면 한 손에 쏙 들어올 정도로 작다. 주로 쥐나 참새같은 소형 동물을 사냥한다. 크기는 까마귀보다도 작고 까치랑 비슷한 크기지만 명색이 맹금류인만큼 전투력은 뛰어나서 1:1로 까치 정도는 제압할 수 있다."
-        android:textAlignment="center"
-        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검정배줄벼룩잎벌레란?"
+        android:fontFamily="@font/pretendardextrabold"
+        android:textSize="20sp"
+        android:textColor="#292F2B"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="373dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="403dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="잎벌레과 벼룩잎벌레아과"
+        android:textColor="#292F2B"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="465dp"
+        android:fontFamily="@font/pretendardsemibold"
+        android:text="특징"
+        android:textColor="#292F2B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="490dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="한국, 일본, 중국, 타이완, 인도차이나, 수마트라 등지에 분포한다. 기주식물은 유채, 배추 등 십자화과 식물이다."
+        android:textColor="#292F2B"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageButton
         android:id="@+id/nextBtn"

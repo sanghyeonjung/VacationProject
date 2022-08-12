@@ -39,19 +39,50 @@
         app:layout_constraintTop_toBottomOf="@id/textviewFishDetailHair" />
 
     <TextView
-        android:id="@+id/textviewPlant1"
-        android:layout_width="279dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="518dp"
-        android:layout_marginEnd="48dp"
-        android:fontFamily="@font/comfortaaregular"
-        android:lineHeight="14dp"
-        android:text="키는 3~5m쯤 되며 생울타리로 많이 심어 기르며 추위와 공해에 강하다. 나무껍질은 흑갈색으로 얕게 갈라진다. 잎은 마주나고 타원 모양이며 가죽질이다."
-        android:textAlignment="center"
-        android:textColor="#223253"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="참나리란?"
+        android:fontFamily="@font/pretendardextrabold"
+        android:textSize="20sp"
+        android:textColor="#292F2B"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="373dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="403dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="참나리는 백합과의 여러해살이풀\n백합, 나리, 알나리로 불린다"
+        android:textColor="#292F2B"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="465dp"
+        android:fontFamily="@font/pretendardsemibold"
+        android:text="특징"
+        android:textColor="#292F2B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="490dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="줄기의 높이는 1-2m 정도이며, 어린 가지에는 흰색의 잔털이 나 있다. 꽃은 황적색으로 짙은 자색의 반점이 있다."
+        android:textColor="#292F2B"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

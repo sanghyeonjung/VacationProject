@@ -40,22 +40,54 @@
 
 
 
-        <TextView
-            android:id="@+id/textviewExplainWhiteSlime"
-            android:layout_width="291dp"
-            android:layout_height="126dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="500dp"
-            android:layout_marginEnd="18dp"
-            android:fontFamily="@font/comfortaaregular"
-            android:lineHeight="14dp"
-            android:text="독도를 포함하여 난류의 영향을 받는 비교적 고수온 해역에서 주로 서식한다 \n몸통 길이는 4cm 내외이며, 등 면에는 좌우대칭의 흰색 무늬가 있다 \n말미잘, 산호 또는 히드라와 같은 자포동물의 촉수를 뜯어 먹는 육식성 포식자이다"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="13sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예쁜이갯민숭이란?"
+        android:fontFamily="@font/pretendardextrabold"
+        android:textSize="20sp"
+        android:textColor="#292F2B"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="373dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="403dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="독도 바다의 육식성 포식자"
+        android:textColor="#292F2B"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="465dp"
+        android:fontFamily="@font/pretendardsemibold"
+        android:text="특징"
+        android:textColor="#292F2B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="490dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="독도를 포함하여 난류의 영향을 받는 비교적 고수온 해역에서 주로 서식한다. 몸통 길이는 4cm 내외이며, 등 면에는 좌우대칭의 흰색 무늬가 있다. 말미잘, 산호 또는 히드라와 같은 자포동물의 촉수를 뜯어 먹는 육식성 포식자이다."
+        android:textColor="#292F2B"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageButton
         android:id="@+id/nextBtn"

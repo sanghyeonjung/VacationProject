@@ -38,22 +38,53 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textviewFishDetailHair" />
 
-        <TextView
-            android:id="@+id/textviewExplainHair"
-            android:layout_width="291dp"
-            android:layout_height="126dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="500dp"
-            android:layout_marginEnd="18dp"
-            android:fontFamily="@font/comfortaaregular"
-            android:lineHeight="14dp"
-            android:text="독도 바다에서 봄~여름철에 볼 수 있으며, 몸통 길이는 3~4cm 정도이다 \n산호나 히드라와 같은 자포동물을 주로 먹는다 \n먹이로부터 섭취한 독침을 아가미 돌기 끝에 저장하여 자신을 포식하려는 적들에 대한 방어무기로 활용한다"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="13sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="왕벚꽃하늘소갯민숭이란?"
+        android:fontFamily="@font/pretendardextrabold"
+        android:textSize="20sp"
+        android:textColor="#292F2B"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="373dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="403dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="돌나무과의 여러해살이풀"
+        android:textColor="#292F2B"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="465dp"
+        android:fontFamily="@font/pretendardsemibold"
+        android:text="특징"
+        android:textColor="#292F2B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="490dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text=""
+        android:textColor="#292F2B"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/nextBtn"
