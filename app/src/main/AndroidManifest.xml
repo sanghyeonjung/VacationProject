@@ -12,79 +12,79 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VacationProject">
         <activity
-            android:name=".DetailInsect6"
+            android:name=".DetailInsect.DetailInsect6"
             android:exported="false" />
         <activity
-            android:name=".DetailInsect5"
+            android:name=".DetailInsect.DetailInsect5"
             android:exported="false" />
         <activity
-            android:name=".DetailInsect4"
+            android:name=".DetailInsect.DetailInsect4"
             android:exported="false" />
         <activity
-            android:name=".DetailInsect3"
+            android:name=".DetailInsect.DetailInsect3"
             android:exported="false" />
         <activity
-            android:name=".DetailInsect2"
+            android:name=".DetailInsect.DetailInsect2"
             android:exported="false" />
         <activity
-            android:name=".DetailInsect1"
+            android:name=".DetailInsect.DetailInsect1"
             android:exported="false" />
         <activity
-            android:name=".BlankQuiz"
+            android:name=".Quiz.BlankQuiz"
             android:exported="false" />
         <activity
-            android:name=".InsectStudyActivity"
+            android:name=".StudyActivity.InsectStudyActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailBird4"
+            android:name=".DetailBird.DetailBird4"
             android:exported="false" />
         <activity
-            android:name=".DetailBird3"
+            android:name=".DetailBird.DetailBird3"
             android:exported="false" />
         <activity
-            android:name=".DetailBird2"
+            android:name=".DetailBird.DetailBird2"
             android:exported="false" />
         <activity
-            android:name=".DetailBird1"
+            android:name=".DetailBird.DetailBird1"
             android:exported="false" />
         <activity
-            android:name=".BirdStudyActivity"
+            android:name=".StudyActivity.BirdStudyActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailPlant4"
+            android:name=".DetailPlant.DetailPlant4"
             android:exported="false" />
         <activity
-            android:name=".DetailPlant3"
+            android:name=".DetailPlant.DetailPlant3"
             android:exported="false" />
         <activity
-            android:name=".DetailPlant2"
+            android:name=".DetailPlant.DetailPlant2"
             android:exported="false" />
         <activity
-            android:name=".QuizStartActivity"
+            android:name=".Quiz.QuizStartActivity"
             android:exported="false" />
         <activity
-            android:name=".YesNoQuiz"
+            android:name=".Quiz.YesNoQuiz"
             android:exported="false" />
         <activity
-            android:name=".DetailPlant"
+            android:name=".DetailPlant.DetailPlant"
             android:exported="false" />
         <activity
-            android:name=".PlantStudyActivity"
+            android:name=".StudyActivity.PlantStudyActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailHair"
+            android:name=".DetailFish.DetailHair"
             android:exported="false" />
         <activity
-            android:name=".DetailWhiteSlime"
+            android:name=".DetailFish.DetailWhiteSlime"
             android:exported="false" />
         <activity
-            android:name=".DetailWhiteFish"
+            android:name=".DetailFish.DetailWhiteFish"
             android:exported="false" />
         <activity
-            android:name=".DetailRedFish"
+            android:name=".DetailFish.DetailRedFish"
             android:exported="false" />
         <activity
-            android:name=".FirstStudyActivity"
+            android:name=".StudyActivity.FirstStudyActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

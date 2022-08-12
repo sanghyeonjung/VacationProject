@@ -1,13 +1,15 @@
 package com.example.vacationproject
 
 import android.content.Intent
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.example.vacationproject.DetailBird.DetailBird1
+import com.example.vacationproject.DetailFish.DetailRedFish
+import com.example.vacationproject.DetailPlant.DetailPlant
+import com.example.vacationproject.Quiz.QuizStartActivity
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
@@ -30,23 +32,23 @@ class MainActivity : AppCompatActivity() {
             }
 
         ocean1.setOnClickListener{
-            startActivity(Intent(this@MainActivity,DetailRedFish::class.java))
+            startActivity(Intent(this@MainActivity, DetailRedFish::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         ocean2.setOnClickListener{
-            startActivity(Intent(this@MainActivity,DetailRedFish::class.java))
+            startActivity(Intent(this@MainActivity, DetailRedFish::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         quizBtn.setOnClickListener{
-            startActivity(Intent(this@MainActivity,QuizStartActivity::class.java))
+            startActivity(Intent(this@MainActivity, QuizStartActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         dockdo.setOnClickListener{
-            startActivity(Intent(this@MainActivity,DetailPlant::class.java))
+            startActivity(Intent(this@MainActivity, DetailPlant::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         sky.setOnClickListener{
-            startActivity(Intent(this@MainActivity,DetailBird1::class.java))
+            startActivity(Intent(this@MainActivity, DetailBird1::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }

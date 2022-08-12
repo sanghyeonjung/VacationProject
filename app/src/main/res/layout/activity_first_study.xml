@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0072DF"
-    tools:context=".FirstStudyActivity">
+    tools:context=".StudyActivity.FirstStudyActivity">
 
     <ImageButton
         android:id="@+id/backButtonFirstStudyActivity"

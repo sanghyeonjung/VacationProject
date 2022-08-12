@@ -1,15 +1,16 @@
-package com.example.vacationproject
+package com.example.vacationproject.StudyActivity
 
 import android.content.Intent
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Window
-import android.widget.Button
 import android.widget.ImageButton
-import androidx.appcompat.app.AlertDialog
+import com.example.vacationproject.DetailPlant.DetailPlant
+import com.example.vacationproject.DetailPlant.DetailPlant2
+import com.example.vacationproject.DetailPlant.DetailPlant3
+import com.example.vacationproject.DetailPlant.DetailPlant4
+import com.example.vacationproject.GuideDialog
+import com.example.vacationproject.MainActivity
+import com.example.vacationproject.R
 
 class PlantStudyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,30 +37,30 @@ class PlantStudyActivity : AppCompatActivity() {
 
 
         plant1.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant::class.java))
+            startActivity(Intent(this@PlantStudyActivity, DetailPlant::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         plant2.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant2::class.java))
+            startActivity(Intent(this@PlantStudyActivity, DetailPlant2::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         plant3.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant3::class.java))
+            startActivity(Intent(this@PlantStudyActivity, DetailPlant3::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         plant4.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,DetailPlant4::class.java))
+            startActivity(Intent(this@PlantStudyActivity, DetailPlant4::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 
         back_btn.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,MainActivity::class.java))
+            startActivity(Intent(this@PlantStudyActivity, MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 
 
         slideRight.setOnClickListener{
-            startActivity(Intent(this@PlantStudyActivity,BirdStudyActivity::class.java))
+            startActivity(Intent(this@PlantStudyActivity, BirdStudyActivity::class.java))
             overridePendingTransition(R.anim.slide_right_enter, R.anim.slide_right_exit)
         }
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5EDE8"
-    tools:context=".BlankQuiz">
+    tools:context=".Quiz.BlankQuiz">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutQuizMain"
