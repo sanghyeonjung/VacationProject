@@ -47,7 +47,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutDokdoMain">
-
 <!--        <ImageView-->
 <!--            android:layout_width="41dp"-->
 <!--            android:layout_height="22dp"-->

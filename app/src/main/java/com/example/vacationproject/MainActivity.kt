@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val nextBtn = findViewById<ConstraintLayout>(R.id.layoutFirstStudyMain)
+        val ocean1 = findViewById<ConstraintLayout>(R.id.layoutFirstStudyMain)
+        val ocean2 = findViewById<ConstraintLayout>(R.id.layoutSecondStudyMain)
         val quizBtn = findViewById<ConstraintLayout>(R.id.layoutQuizMain)
         val dockdo = findViewById<ImageButton>(R.id.layoutDokdo)
         val sky = findViewById<ImageButton>(R.id.skyBtn)
@@ -28,7 +29,11 @@ class MainActivity : AppCompatActivity() {
                 methanNow.text = it.data!!.get("score").toString()
             }
 
-        nextBtn.setOnClickListener{
+        ocean1.setOnClickListener{
+            startActivity(Intent(this@MainActivity,DetailRedFish::class.java))
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
+        }
+        ocean2.setOnClickListener{
             startActivity(Intent(this@MainActivity,DetailRedFish::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
