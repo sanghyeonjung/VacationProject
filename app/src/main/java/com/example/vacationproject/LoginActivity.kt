@@ -37,11 +37,12 @@ class LoginActivity : AppCompatActivity() {
             .addOnCompleteListener(this) {
                 if (it.isSuccessful) {
                     val db = Firebase.firestore
+                    //val user = auth?.currentUser
                     db.collection("user")
                         .document(UtilCode.getInstance().uid!!)
-                        .set(hashMapOf("score" to 0))
+                        .set(hashMapOf("id" to "${emailEditText.text.toString().trim()}",
+                                       "score" to "0"))
 
-                    val user = auth?.currentUser
                     Toast.makeText(this, "Authentication success.", Toast.LENGTH_SHORT).show()
                 } else {
                     Toast.makeText(
