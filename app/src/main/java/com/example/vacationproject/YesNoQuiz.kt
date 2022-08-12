@@ -25,7 +25,6 @@ class YesNoQuiz : AppCompatActivity() {
         var methanText = findViewById<TextView>(R.id.textQuizMain)
         var questionText = findViewById<TextView>(R.id.textviewQuestion)
 
-        val db = Firebase.firestore
 
         var methan = 0
         var cnt = 0
