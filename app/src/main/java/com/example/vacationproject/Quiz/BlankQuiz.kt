@@ -15,7 +15,7 @@ class BlankQuiz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_blank_quiz)
-        val answer = arrayListOf<String>("흑돔","2번째"," ")
+        val answer = arrayListOf<String>("혹돔","2번째"," ")
         val answerSize = 2
         val confirmBtn = findViewById<Button>(R.id.buttonConfirmQuiz)
         var methanText = findViewById<TextView>(R.id.textQuizMain)
