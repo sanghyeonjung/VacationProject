@@ -7,6 +7,8 @@ import android.util.Log
 import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 
 class YesNoQuiz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,6 +24,8 @@ class YesNoQuiz : AppCompatActivity() {
         val noBtn = findViewById<ImageButton>(R.id.imageButtonNoQuiz)
         var methanText = findViewById<TextView>(R.id.textQuizMain)
         var questionText = findViewById<TextView>(R.id.textviewQuestion)
+
+        val db = Firebase.firestore
 
         var methan = 0
         var cnt = 0
