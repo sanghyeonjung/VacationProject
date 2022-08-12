@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
@@ -34,6 +36,11 @@ class LoginActivity : AppCompatActivity() {
         )
             .addOnCompleteListener(this) {
                 if (it.isSuccessful) {
+                    val db = Firebase.firestore
+                    db.collection("user")
+                        .document(UtilCode.getInstance().uid!!)
+                        .set(hashMapOf("score" to 0))
+
                     val user = auth?.currentUser
                     Toast.makeText(this, "Authentication success.", Toast.LENGTH_SHORT).show()
                 } else {

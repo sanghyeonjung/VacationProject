@@ -6,6 +6,11 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
+import android.widget.Toast
+import com.google.firebase.firestore.DocumentSnapshot
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.firestore.ktx.getField
+import com.google.firebase.ktx.Firebase
 
 class QuizStartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,8 +19,19 @@ class QuizStartActivity : AppCompatActivity() {
         val quizStartBtn = findViewById<Button>(R.id.buttonQuizStartQuizStart)
         val goHomeBtn = findViewById<ImageButton>(R.id.imagebuttonBackQuizStart)
         var methanNow = findViewById<TextView>(R.id.textviewMethanQuizStart)
+
+        val db = Firebase.firestore
+        db.collection("user")
+            .document(UtilCode.getInstance().uid!!)
+            .get()
+            .addOnSuccessListener { it ->
+                methanNow.text = it.data!!.get("score").toString()
+            }
+
         if(intent.hasExtra("methan")){
-            methanNow.text = intent.getStringExtra("methan")
+            db.collection("user")
+                .document(UtilCode.getInstance().uid!!)
+                .set(hashMapOf("score" to intent.getStringExtra("methan")))
         }
         quizStartBtn.setOnClickListener{
             startActivity(Intent(this@QuizStartActivity,YesNoQuiz::class.java))

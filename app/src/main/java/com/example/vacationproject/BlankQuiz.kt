@@ -7,6 +7,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import java.lang.NumberFormatException
 
 class BlankQuiz : AppCompatActivity() {
@@ -19,6 +21,8 @@ class BlankQuiz : AppCompatActivity() {
         var methanText = findViewById<TextView>(R.id.textQuizMain)
         var methanGet = intent.getStringExtra("methan")
         var methan:Int = methanGet!!.toInt()
+
+        val db = Firebase.firestore
 
         val intent = Intent(this, QuizStartActivity::class.java)
 

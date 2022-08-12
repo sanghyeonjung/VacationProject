@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,6 +19,14 @@ class MainActivity : AppCompatActivity() {
         val quizBtn = findViewById<ConstraintLayout>(R.id.layoutQuizMain)
         val dockdo = findViewById<ImageButton>(R.id.layoutDokdo)
         val sky = findViewById<ImageButton>(R.id.skyBtn)
+        val methanNow = findViewById<TextView>(R.id.textQuizMain)
+        val db = Firebase.firestore
+        db.collection("user")
+            .document(UtilCode.getInstance().uid!!)
+            .get()
+            .addOnSuccessListener { it ->
+                methanNow.text = it.data!!.get("score").toString()
+            }
 
         nextBtn.setOnClickListener{
             startActivity(Intent(this@MainActivity,DetailRedFish::class.java))
