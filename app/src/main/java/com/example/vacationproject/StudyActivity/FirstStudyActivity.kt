@@ -1,15 +1,16 @@
-package com.example.vacationproject
+package com.example.vacationproject.StudyActivity
 
 import android.content.Intent
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Window
-import android.widget.Button
 import android.widget.ImageButton
-import androidx.appcompat.app.AlertDialog
+import com.example.vacationproject.DetailFish.DetailHair
+import com.example.vacationproject.DetailFish.DetailRedFish
+import com.example.vacationproject.DetailFish.DetailWhiteFish
+import com.example.vacationproject.DetailFish.DetailWhiteSlime
+import com.example.vacationproject.GuideDialog
+import com.example.vacationproject.MainActivity
+import com.example.vacationproject.R
 
 class FirstStudyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,24 +34,24 @@ class FirstStudyActivity : AppCompatActivity() {
         }*/
 
         redFish.setOnClickListener{
-            startActivity(Intent(this@FirstStudyActivity,DetailRedFish::class.java))
+            startActivity(Intent(this@FirstStudyActivity, DetailRedFish::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         whiteFish.setOnClickListener{
-            startActivity(Intent(this@FirstStudyActivity,DetailWhiteFish::class.java))
+            startActivity(Intent(this@FirstStudyActivity, DetailWhiteFish::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         whiteSlime.setOnClickListener{
-            startActivity(Intent(this@FirstStudyActivity,DetailWhiteSlime::class.java))
+            startActivity(Intent(this@FirstStudyActivity, DetailWhiteSlime::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         hair.setOnClickListener{
-            startActivity(Intent(this@FirstStudyActivity,DetailHair::class.java))
+            startActivity(Intent(this@FirstStudyActivity, DetailHair::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 
         back_btn.setOnClickListener{
-            startActivity(Intent(this@FirstStudyActivity,MainActivity::class.java))
+            startActivity(Intent(this@FirstStudyActivity, MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }

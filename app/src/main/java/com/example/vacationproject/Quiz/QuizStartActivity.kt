@@ -1,4 +1,4 @@
-package com.example.vacationproject
+package com.example.vacationproject.Quiz
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,15 +7,12 @@ import android.util.Log
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.firestore.DocumentSnapshot
+import com.example.vacationproject.MainActivity
+import com.example.vacationproject.R
+import com.example.vacationproject.UtilCode
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.firestore.ktx.getField
-import com.google.firebase.ktx.Firebase
-import kotlinx.android.synthetic.main.activity_login.*
 
 class QuizStartActivity : AppCompatActivity() {
     val db = FirebaseFirestore.getInstance()
@@ -59,11 +56,11 @@ class QuizStartActivity : AppCompatActivity() {
                 .update(mapOf("score" to intent.getStringExtra("methan")))
         }
         quizStartBtn.setOnClickListener{
-            startActivity(Intent(this@QuizStartActivity,YesNoQuiz::class.java))
+            startActivity(Intent(this@QuizStartActivity, YesNoQuiz::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         goHomeBtn.setOnClickListener{
-            startActivity(Intent(this@QuizStartActivity,MainActivity::class.java))
+            startActivity(Intent(this@QuizStartActivity, MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 

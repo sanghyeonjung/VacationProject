@@ -1,27 +1,29 @@
-package com.example.vacationproject
+package com.example.vacationproject.DetailBird
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import com.example.vacationproject.MainActivity
+import com.example.vacationproject.R
 
-class DetailBird3 : AppCompatActivity() {
+class DetailBird2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_bird3)
+        setContentView(R.layout.activity_detail_bird2)
 
         val dockdo_btn = findViewById<Button>(R.id.buttonDokdoDetailPlant)
         val nextBtn = findViewById<ImageButton>(R.id.nextBtn)
 
         dockdo_btn.setOnClickListener{
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 
 
         nextBtn.setOnClickListener{
-            startActivity(Intent(this,DetailBird4::class.java))
+            startActivity(Intent(this, DetailBird3::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
 

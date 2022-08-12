@@ -1,14 +1,12 @@
-package com.example.vacationproject
+package com.example.vacationproject.Quiz
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
-import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.ktx.Firebase
+import com.example.vacationproject.R
 
 class YesNoQuiz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

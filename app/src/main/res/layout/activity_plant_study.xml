@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D9F6E5"
-    tools:context=".PlantStudyActivity"
+    tools:context=".StudyActivity.PlantStudyActivity"
     >
 
     <ImageButton
