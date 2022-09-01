@@ -3,10 +3,7 @@ package com.example.vacationproject.Quiz
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import com.example.vacationproject.R
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -15,12 +12,20 @@ class BlankQuiz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_blank_quiz)
-        val answer = arrayListOf<String>("혹돔","2번째"," ")
-        val answerSize = 2
+        val imageList = arrayListOf<Int>(
+            R.drawable.ic_whiteslime,
+            R.drawable.ic_bird2,
+            R.drawable.ic_plant_4,
+            R.drawable.ic_insect6,
+            0
+        )
+        val answer = arrayListOf<String>("예쁜이갯민숭이","딱새","참나리","소나무무당벌레","")
+        val answerSize = 3
         val confirmBtn = findViewById<Button>(R.id.buttonConfirmQuiz)
         var methanText = findViewById<TextView>(R.id.textQuizMain)
         var methanGet = intent.getStringExtra("methan")
         var methan:Int = methanGet!!.toInt()
+        val imageView = findViewById<ImageView>(R.id.imageviewQuestion)
 
         val db = Firebase.firestore
 
@@ -44,7 +49,10 @@ class BlankQuiz : AppCompatActivity() {
                     startActivity(intent)
                     overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
                 }
-                methanText.text = methan.toString()
+                else{
+                    methanText.text = methan.toString()
+                    imageView.setImageResource(imageList[cnt])
+                }
             }
             else
             {
@@ -56,7 +64,11 @@ class BlankQuiz : AppCompatActivity() {
                     startActivity(intent)
                     overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
                 }
-                methanText.text = methan.toString()
+                else
+                {
+                    methanText.text = methan.toString()
+                    imageView.setImageResource(imageList[cnt])
+                }
             }
         }
 

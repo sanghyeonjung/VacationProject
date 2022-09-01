@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="#E5EDE8"
     tools:context=".Quiz.BlankQuiz">
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutQuizMain"
         android:layout_width="59dp"
@@ -58,7 +57,7 @@
         android:layout_width="157dp"
         android:layout_height="88dp"
         android:layout_marginTop="213dp"
-        android:src="@drawable/ic_redfish_detail"
+        android:src="@drawable/ic_whiteslime"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
