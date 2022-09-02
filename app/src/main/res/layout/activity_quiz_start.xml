@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayoutTopQuizStart"
         android:layout_width="match_parent"
-        android:layout_height="234dp"
+        android:layout_height="180dp"
         android:background="#E5EDE8"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -29,9 +29,8 @@
             android:id="@+id/constraintLayoutMethanQuizStart"
             android:layout_width="142dp"
             android:layout_height="73dp"
-            android:layout_marginBottom="36dp"
             android:background="@drawable/custom_now_methanhydrate_textview"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imagebuttonBackQuizStart"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
@@ -118,6 +117,8 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textviewExplainButtonQuizStart" />
+        app:layout_constraintTop_toBottomOf="@id/textviewExplainButtonQuizStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="25dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
