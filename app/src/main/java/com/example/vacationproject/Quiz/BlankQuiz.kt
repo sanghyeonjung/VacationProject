@@ -42,7 +42,6 @@ class BlankQuiz : AppCompatActivity() {
             {
                 Toast.makeText(this,"정답입니다!", Toast.LENGTH_SHORT).show()
                 methan++
-                cnt++
                 if(cnt == answerSize)
                 {
                     intent.putExtra("methan","$methan")
@@ -50,6 +49,7 @@ class BlankQuiz : AppCompatActivity() {
                     overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
                 }
                 else{
+                    cnt++
                     methanText.text = methan.toString()
                     imageView.setImageResource(imageList[cnt])
                 }
@@ -57,7 +57,6 @@ class BlankQuiz : AppCompatActivity() {
             else
             {
                 Toast.makeText(this,"오답입니다!", Toast.LENGTH_SHORT).show()
-                cnt++
                 if(cnt == answerSize)
                 {
                     intent.putExtra("methan","$methan")
@@ -66,6 +65,7 @@ class BlankQuiz : AppCompatActivity() {
                 }
                 else
                 {
+                    cnt++
                     methanText.text = methan.toString()
                     imageView.setImageResource(imageList[cnt])
                 }

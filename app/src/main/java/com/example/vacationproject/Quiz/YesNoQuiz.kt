@@ -34,7 +34,7 @@ class YesNoQuiz : AppCompatActivity() {
             R.drawable.ic_whiteslime,
             0
         )
-        val answerSize = 4
+        val answerSize = 3
 
         val intent = Intent(this, BlankQuiz::class.java)
 
@@ -52,16 +52,17 @@ class YesNoQuiz : AppCompatActivity() {
                 if(answer[cnt] == true)
                 {
                     Toast.makeText(this@YesNoQuiz,"정답입니다!",Toast.LENGTH_SHORT).show()
-                    methan++
-                    cnt++
                     if(cnt == answerSize)
                     {
+                        methan++
                         intent.putExtra("methan","$methan")
                         startActivity(intent)
                         overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
                     }
                     else
                     {
+                        methan++
+                        cnt++
                         questionText.text = question[cnt]
                         methanText.text = methan.toString()
                         imageView.setImageResource(imageList[cnt])
@@ -71,7 +72,6 @@ class YesNoQuiz : AppCompatActivity() {
                 else
                 {
                     Toast.makeText(this@YesNoQuiz,"오답입니다!",Toast.LENGTH_SHORT).show()
-                    cnt++
                     if(cnt == answerSize)
                     {
                         intent.putExtra("methan","$methan")
@@ -80,6 +80,7 @@ class YesNoQuiz : AppCompatActivity() {
                     }
                     else
                     {
+                        cnt++
                         questionText.text = question[cnt]
                         methanText.text = methan.toString()
                         imageView.setImageResource(imageList[cnt])
@@ -91,32 +92,39 @@ class YesNoQuiz : AppCompatActivity() {
                 if(answer[cnt] == false)
                 {
                     Toast.makeText(this@YesNoQuiz,"정답입니다!",Toast.LENGTH_SHORT).show()
-                    methan++
-                    cnt++
                     if(cnt == answerSize)
                     {
-
                         intent.putExtra("methan","$methan")
                         startActivity(intent)
                         overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
                     }
-                    questionText.text = question[cnt]
-                    methanText.text = methan.toString()
+                    else
+                    {
+                        methan++
+                        cnt++
+                        questionText.text = question[cnt]
+                        methanText.text = methan.toString()
+                        imageView.setImageResource(imageList[cnt])
+                        questionNameText.text = questionName[cnt]
+                    }
                 }
                 else
                 {
                     Toast.makeText(this@YesNoQuiz,"오답입니다!",Toast.LENGTH_SHORT).show()
-                    cnt++
                     if(cnt == answerSize)
                     {
-
                         intent.putExtra("methan","$methan")
                         startActivity(intent)
                         overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
                     }
-                    questionText.text = question[cnt]
-                    methanText.text = methan.toString()
-                }
+                    else
+                    {
+                        cnt++
+                        questionText.text = question[cnt]
+                        methanText.text = methan.toString()
+                        imageView.setImageResource(imageList[cnt])
+                        questionNameText.text = questionName[cnt]
+                    }}
             }
     }
 }
