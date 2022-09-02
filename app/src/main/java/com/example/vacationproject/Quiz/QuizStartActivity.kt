@@ -1,5 +1,6 @@
 package com.example.vacationproject.Quiz
 
+import android.app.Dialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,9 +10,7 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.vacationproject.MainActivity
-import com.example.vacationproject.R
-import com.example.vacationproject.UtilCode
+import com.example.vacationproject.*
 import com.google.firebase.firestore.FirebaseFirestore
 
 class QuizStartActivity : AppCompatActivity() {
@@ -25,8 +24,13 @@ class QuizStartActivity : AppCompatActivity() {
         val goHomeBtn = findViewById<ImageButton>(R.id.imagebuttonBackQuizStart)
         var methanNow = findViewById<TextView>(R.id.textviewMethanQuizStart)
         val recyclerview = findViewById<RecyclerView>(R.id.recyclerViewScoreBoardQuizStart)
+
+        val dialog = GuideDialog(this)
+        dialog.show()
+
         recyclerview.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         recyclerview.adapter = adapter
+
         db.collection("user")
             .document(UtilCode.getInstance().uid!!)
             .get()

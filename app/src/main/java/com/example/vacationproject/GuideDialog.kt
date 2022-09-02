@@ -20,7 +20,6 @@ class GuideDialog(context: Context) : Dialog(context) {
 
         window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
         window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
-
         cancelButton.setOnClickListener {
             dismiss()
         }
