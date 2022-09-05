@@ -32,7 +32,7 @@ class LoginActivity : AppCompatActivity() {
             {
                 Toast.makeText(
                     this,
-                    "이메일과 비밀번호를 작성해주세요.",
+                    "이메일과 v비밀번호를 작성해주세요.",
                     Toast.LENGTH_SHORT
                 ).show()
             }
