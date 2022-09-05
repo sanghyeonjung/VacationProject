@@ -84,7 +84,7 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="18dp"
             android:fontFamily="@font/comfortaabold"
-            android:lineHeight="14dp"
+            android:lineHeight="24dp"
             android:text="키가 3~5m쯤 되며 생울타리로 많이 심어 기르며 추위와 공해에 강한 나무"
             android:textAlignment="center"
             android:textColor="#223253"
@@ -100,9 +100,10 @@
         android:layout_width="118dp"
         android:layout_height="118dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginBottom="60dp"
         android:background="#E5EDE8"
         android:src="@drawable/ic_quiz_yes_button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/constraintLayoutExplainQuestion" />
 
@@ -110,10 +111,11 @@
         android:id="@+id/imageButtonNoQuiz"
         android:layout_width="118dp"
         android:layout_height="118dp"
-        android:layout_marginTop="35dp"
         android:layout_marginEnd="52dp"
+        android:layout_marginBottom="60dp"
         android:background="#E5EDE8"
         android:src="@drawable/ic_quiz_no_button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/constraintLayoutExplainQuestion" />
 </androidx.constraintlayout.widget.ConstraintLayout>
