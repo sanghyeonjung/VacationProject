@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textviewFishDetailHair"
+        android:id="@+id/textviewPlantName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
@@ -29,16 +29,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageviewDetailHair"
+        android:id="@+id/imageviewPlant"
         android:layout_width="130dp"
         android:layout_height="121.14dp"
         android:layout_marginTop="24dp"
         android:src="@drawable/ic_plant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textviewFishDetailHair" />
+        app:layout_constraintTop_toBottomOf="@id/textviewPlantName" />
 
     <TextView
+        android:id="@+id/textviewPlantName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="사철나무란?"
@@ -51,6 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <TextView
+        android:id="@+id/textviewPlant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -75,6 +77,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textviewPlantFeature"
         android:layout_width="325dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"

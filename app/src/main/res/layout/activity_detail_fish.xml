@@ -6,7 +6,7 @@
     android:background="#FAFFFC">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/buttonDokdoDetailRedFish"
+        android:id="@+id/buttonDokdoDetailHair"
         android:layout_width="127.76dp"
         android:layout_height="35dp"
         android:layout_marginStart="28dp"
@@ -16,12 +16,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textviewFishDetailRedFish"
+        android:id="@+id/textviewFishName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="170dp"
         android:fontFamily="@font/comfortaabold"
-        android:text="혹돔"
+        android:text="왕벚꽃하늘소갯민숭이"
         android:textColor="#223253"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,20 +29,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageviewDetailRedFish"
+        android:id="@+id/imageviewFish"
         android:layout_width="157dp"
         android:layout_height="88dp"
         android:layout_marginTop="35dp"
-        android:src="@drawable/ic_redfish_detail"
+        android:src="@drawable/ic_hair_detail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textviewFishDetailRedFish" />
-
+        app:layout_constraintTop_toBottomOf="@id/textviewFishName" />
 
     <TextView
+        android:id="@+id/textviewFishName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="혹돔이란?"
+        android:text="왕벚꽃하늘소갯민숭이란?"
         android:fontFamily="@font/pretendardextrabold"
         android:textSize="20sp"
         android:textColor="#292F2B"
@@ -52,12 +52,13 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <TextView
+        android:id="@+id/textviewFish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="403dp"
         android:fontFamily="@font/pretendardmedium"
-        android:text="독도 앞바다에 서식하는 가장 큰 물고기\n머리에 사과만 한 혹이 나 있어서 혹돔이라 부름"
+        android:text="독도 바다의 달팽이"
         android:textColor="#292F2B"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,17 +77,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textviewFishFeature"
         android:layout_width="325dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="490dp"
         android:fontFamily="@font/pretendardmedium"
-        android:text="낮에 확동하다가, 밤이 되면 바위 틈이나 굴 속에서 우리처럼 잠을 잔다. 혹돔들이 무리를 지어 자는 바위를 혹돔굴이라고 한다."
+        android:text="독도 바다에서 봄~여름철에 볼 수 있으며, 몸통 길이는 3~4cm 정도이다. 산호나 히드라와 같은 자포동물을 주로 먹으며, 먹이로부터 섭취한 독침을 아가미 돌기 끝에 저장하여 자신을 포식하려는 적들에 대한 방어무기로 활용한다."
         android:textColor="#292F2B"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <ImageButton
         android:id="@+id/nextBtn"

@@ -6,7 +6,7 @@
     android:background="#FAFFFC">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/buttonDokdoDetailPlant"
+        android:id="@+id/buttonDokdoDetailBird"
         android:layout_width="127.76dp"
         android:layout_height="35dp"
         android:layout_marginStart="28dp"
@@ -16,12 +16,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textviewFishDetailHair"
+        android:id="@+id/textviewFishName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:fontFamily="@font/comfortaabold"
-        android:text="땅채송화"
+        android:text="새매"
         android:textColor="#223253"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,34 +29,36 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageviewDetailHair"
-        android:layout_width="149dp"
-        android:layout_height="118.56dp"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/ic_plant_3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textviewFishDetailHair" />
-
-    <TextView
+        android:id="@+id/imageviewFish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="땅채송화란?"
-        android:fontFamily="@font/pretendardextrabold"
-        android:textSize="20sp"
-        android:textColor="#292F2B"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="373dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_bird1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewFishName" />
 
     <TextView
+        android:id="@+id/textviewBirdName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="373dp"
+        android:fontFamily="@font/pretendardextrabold"
+        android:text="새매란?"
+        android:textColor="#292F2B"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewBird"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="403dp"
         android:fontFamily="@font/pretendardmedium"
-        android:text="돌나무과의 여러해살이풀"
+        android:text="수리목 수리과의 한 종\n한국에서는 텃새"
         android:textColor="#292F2B"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,12 +77,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textviewBirdFeature"
         android:layout_width="325dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="490dp"
         android:fontFamily="@font/pretendardmedium"
-        android:text="땅채송화의 다육질의 긴 줄기에서 곧추서는 줄기와 실뿌리가 나며 바닷가의 바위틈이나 모래땅에서 자라는 여러해살이풀. 높이는5~15cm이다. 잎은 어긋나며 넓은 선형으로 길이 2에서 5mm로 자라며 자른 면은 반타원형이다."
+        android:text="붙잡으면 한 손에 쏙 들어올 정도로 작다. 주로 쥐나 참새같은 소형 동물을 사냥한다. 크기는 까마귀보다도 작고 까치랑 비슷한 크기지만 명색이 맹금류인만큼 전투력은 뛰어나서 1:1로 까치 정도는 제압할 수 있다."
         android:textColor="#292F2B"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,8 +95,9 @@
         android:layout_height="45dp"
         android:layout_marginStart="145dp"
         android:layout_marginTop="623dp"
+        android:src="@drawable/ic_nextbutton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_nextbutton"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.example.vacationproject.DetailBird.DetailBird1
-import com.example.vacationproject.DetailFish.DetailRedFish
+import com.example.vacationproject.DetailBird.DetailBird
+import com.example.vacationproject.DetailFish.DetailFish
 import com.example.vacationproject.DetailPlant.DetailPlant
 import com.example.vacationproject.Quiz.QuizStartActivity
 import com.google.firebase.firestore.ktx.firestore
@@ -32,11 +32,11 @@ class MainActivity : AppCompatActivity() {
             }
 
         ocean1.setOnClickListener{
-            startActivity(Intent(this@MainActivity, DetailRedFish::class.java))
+            startActivity(Intent(this@MainActivity, DetailFish::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         ocean2.setOnClickListener{
-            startActivity(Intent(this@MainActivity, DetailRedFish::class.java))
+            startActivity(Intent(this@MainActivity, DetailFish::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         quizBtn.setOnClickListener{
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
         sky.setOnClickListener{
-            startActivity(Intent(this@MainActivity, DetailBird1::class.java))
+            startActivity(Intent(this@MainActivity, DetailBird::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
         }
     }
